@@ -1,0 +1,783 @@
+ /*Mobile Device (col-xs) 320 */
+html,body{
+	overflow-y: hidden;
+}
+@media only screen and (min-width: 320px) and (max-width: 359px) { 
+	nav {
+		display: none;
+	}
+
+	body{
+	    background-color: #F5F5F5;
+	}
+
+	.page_frame{
+        background-color: #F5F5F5;
+	}
+
+	.page_frame h3{
+	    padding-top: 0px;
+	}
+
+	.page_title{
+	    color: white;
+	    background-color: #1c8e21;
+	    height: 40px;
+	    margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-radius: 0px;
+  	  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	    border: 1px solid rgba(0,0,0,.075);
+	}
+
+	.page_title h4{
+	    margin-top: 11px;
+	}
+
+	.slide_page > .slide_header h5{
+	    line-height: 1.3em;
+	    text-align: center;
+	    font-size: 1.00em;
+	    font-weight: 300;
+	    margin-top: 17px;
+	    word-break: keep-all;
+	    margin-bottom: -15px;
+	}
+
+	.slide_header{
+	    margin-top: -0.5em;
+	}
+
+	.slide_header_hr{
+		margin-top: 15px;
+	}
+
+	.form-group{
+		background-color: white;
+	}
+
+	.form-group .control-label{
+	    margin-top: 0.5em;
+	}
+
+	.form-horizontal hr{
+    }
+
+    .slide_body_hr{
+	    margin-top: -0.5em;
+	    margin-bottom: -0.5em;
+    }
+
+	.house{
+	    margin-top: -10px;
+	    margin-bottom: 15px;
+	}
+
+	.family{
+	    margin-top: -10px;
+	    margin-bottom: -5px;	
+	}
+
+	.apt{
+		margin-top: -5px;
+	}
+
+	.slider_footer hr{
+	    width: 22.3em;
+	    margin-left: 1px;	    
+	}
+
+	.btn-success{
+	    color: white;
+	    background-color: #259b24;
+	}
+
+	.nav-tabs.nav-justified {
+		text-align:center;
+	    border-bottom: 0;
+	    margin-left: 0.0em;
+	}
+
+	.nav-tabs > li, .nav-pills > li {
+	    float:none;
+	    display:inline-block;
+	    /*display:inline; /* ie7 fix */
+	     zoom:1; 
+	     /* hasLayout ie7 trigger */
+	}
+
+	.tab-content {
+	  padding : 0px 20px;
+	  border: 1px solid #ddd;
+	  margin-top: -6px;
+	  margin-bottom: 10px;
+	  border-radius: 3px;
+	}
+
+	/* 가전제품 확인 탭 */
+	.nav-tabs.nav-justified>.active>a, 
+	.nav-tabs.nav-justified>.active>a:focus, 
+	.nav-tabs.nav-justified>.active>a:hover {
+	    border-radius: 2px;
+	    border: 1px solid #ddd;
+	    margin-right: 0;
+	    border-bottom: 0px;	    
+	}
+
+	.howmany{
+	    margin-top: 5px;
+	    margin-bottom: 4px;
+	}
+
+	.howmany h5{
+		font-weight: 300;
+	}
+
+	.appliance_check h4{
+	    font-size: 1.05em;
+	    line-height: 1.3em;
+	    text-align: center;
+	    font-weight: 400;
+	    margin-top: 1em;
+	    word-break: keep-all;
+	    margin-bottom: 1.0em;
+	}
+
+	.appliance_check h5{
+	    font-size: 1.05em;
+	    line-height: 1.3em;
+	    text-align: center;
+	    font-weight: 400;
+	    margin-top: 1em;
+	    word-break: keep-all;
+	    margin-bottom: 1.0em;
+	}
+
+	#menu3 > div {
+	    margin-top: 13px;
+	    margin-bottom: 14px;		
+	}
+
+	.appliance_plus{
+		height: 110px;
+		border-radius:3px;
+		border: 1px solid #ddd;
+	    overflow: auto;
+		overflow-x: hidden;	
+	}
+
+	.appliance_labels{
+		margin-top: 7px;
+	}
+
+	.appliance_label{
+		font-size: 0.89em;
+	    display: inline-table;
+	    margin-bottom: 6px;
+        font-weight: 200;
+        padding: 5px 7px 5px 7px;
+        margin-right: 7px;
+	}
+
+	/* 3rd slide - inside slide */
+	.slide_page2{
+		margin-left: 4px;
+		box-shadow: 0px 0px 1px rgba(136, 136, 136, 0.61);
+	}
+
+	.typetitle h3{
+		margin-top: -5px;
+		margin-bottom: 0px;
+		margin-left: -14px;
+	}
+
+	.app_nm h4{
+	    margin-top: 0.3em;
+	    margin-bottom: 0.5em;
+	    margin-left: 0.0em;
+	}
+    
+    .typelist{
+		/*margin-left: 15px;*/
+	}
+
+	.chk1{
+		margin-left: -0.7em;
+	}
+
+	.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	    display: inline-block;
+	    overflow: hidden;
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.usersetting{
+	    margin-top: -1.7em;
+	    padding-bottom: 1.0em;
+	}
+
+	.usersetting h5{
+	    font-weight: 300;
+	    margin-top: 5px;
+	    font-size: 1.15em;
+	}
+
+	.count ,.cost {
+	    margin-top: 0.2em;
+	}
+
+	#slidepass{
+		margin-top: 0.5em;
+	}
+
+	a:focus, a:hover {
+	    text-decoration: none;
+	}
+
+	.inslide_page > .typelist > span.group1{
+	    margin-left: 10px;
+	    margin-top: -9px;
+	}
+
+	.inslide_page > .typelist > span.group2{
+		margin-left: -5px;
+		margin-top: -9px;
+	}
+
+	.inslide_page > .typelist > span > h5.subtitle{
+	    margin-left: -1.5em;
+	    margin-top: 0.9em;
+	    margin-right: 0.0em;
+	}
+
+	/* same css */
+	.aptguide{
+	    padding-left: 18px;
+		padding-bottom: 15px;
+	}
+
+	#slidprev2{
+		visibility: hidden;
+		z-index: 1;
+	}
+}
+
+ /*Mobile Device (col-xs) 360 | 375 | 414 */
+@media only screen and (min-width: 360px) and (max-width: 399px) {
+	nav {
+		display: none;
+	}
+
+	body{
+	    background-color: #F5F5F5;
+        margin-left: 0.0em;
+	}
+
+	.page_frame{
+        background-color: #F5F5F5;
+	}
+
+	.page_frame h3{
+        padding-top: 0.5em;
+	}
+
+	.page_title{
+        height: 42px;
+	    color: white;
+	    background-color: #1c8e21;
+	    margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-radius: 0px;
+  	  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	    border: 1px solid rgba(0,0,0,.075);
+	}
+
+	.page_title h4{
+	    margin-top: 12px;
+	    /*margin-top: 13px;*/
+	    margin-left: 0.5em;
+	}
+
+	.glyphicon-exclamation-sign{
+		font-size: 0.8em;
+		color: white;
+	    position: relative;
+	    right: 1em;
+	}
+
+	.popover > .popover-title ,.popover-content{
+		color: black;
+	}
+
+	.slide_page > .slide_header h5{
+	    margin-top: 2em;
+	    margin-bottom: -1.5em;
+	    line-height: 1.3em;
+	    font-weight: 400;
+	    font-size: 1.00em;
+	    word-break: keep-all;
+	}
+
+	.slide_header{
+	    margin-top: -0.5em;
+	}
+
+	.slide_header_hr{
+		margin-top: 15px;
+	}
+
+	.form-group{
+		background-color: white;
+	}
+
+	.form-group .control-label{
+	    margin-top: 0.5em;
+	}
+
+	.form-horizontal hr{
+    }
+
+    .slide_body_hr{
+	    margin-top: -0.5em;
+	    margin-bottom: -0.5em;
+    }
+
+	.house{
+	    margin-top: -10px;
+	    margin-bottom: 15px;
+	}
+
+	.family{
+	    margin-top: -10px;
+	    margin-bottom: -5px;	
+	}
+
+	.apt{
+	    margin-top: -0.2em;
+	}
+
+	.aptguide{
+	    padding-left: 18px;
+		padding-bottom: 0.8em;
+	}
+
+	.slider_footer hr{
+	    width: 22.3em;
+	    margin-left: 1px;	    
+	}
+
+	.btn-success{
+	    color: white;
+	    background-color: #259b24;
+	}
+
+	.nav-tabs.nav-justified {
+		text-align:center;
+	    border-bottom: 0;
+	    margin-left: 0.0em;
+	}
+
+	.nav-tabs > li, .nav-pills > li {
+	    float:none;
+	    display:inline-block;
+	    /*display:inline; /* ie7 fix */
+	     zoom:1; 
+	     /* hasLayout ie7 trigger */
+	}
+
+	.tab-content {
+	  padding : 0px 20px;
+	  border: 1px solid #ddd;
+	  margin-top: -6px;
+	  margin-bottom: 10px;
+	  border-radius: 3px;
+	}
+
+	/* 가전제품 확인 탭 */
+	.nav-tabs.nav-justified>.active>a, 
+	.nav-tabs.nav-justified>.active>a:focus, 
+	.nav-tabs.nav-justified>.active>a:hover {
+	    border-radius: 2px;
+	    border: 1px solid #ddd;
+	    margin-right: 0;
+	    border-bottom: 0px;	    
+	}
+
+	.appliance_check h4{
+	    font-size: 1.05em;
+	    line-height: 1.3em;
+	    text-align: center;
+	    font-weight: 400;
+	    margin-top: 1em;
+	    word-break: keep-all;
+	    margin-bottom: 1.0em;
+	}
+
+	.appliance_check h5{
+	    font-size: 1.05em;
+	    line-height: 1.3em;
+	    text-align: center;
+	    font-weight: 400;
+	    margin-top: 1em;
+	    word-break: keep-all;
+	    margin-bottom: 1.0em;
+	}
+
+	#menu3 > div {
+	    margin-top: 13px;
+	    margin-bottom: 14px;		
+	}
+
+	.appliance_plus{
+		/*height: 110px;*/
+	    height: 8.5em;
+		border-radius:3px;
+		border: 1px solid #ddd;
+	    overflow: auto;
+		overflow-x: hidden;	
+	}
+
+	.appliance_labels{
+		margin-top: 7px;
+	}
+
+	.appliance_label{
+		font-size: 0.89em;
+	    display: inline-table;
+	    margin-bottom: 6px;
+        font-weight: 200;
+        padding: 5px 7px 5px 7px;
+        margin-right: 7px;
+	}
+
+	.howmany{
+        /*margin-top: 0.3em;*/
+        margin-top: 0.3rem;
+	}
+
+	.howmany h5{
+		font-weight: 300;
+	}
+
+	/* 3rd slide - inside slide */
+	.slide_page2{
+		margin-left: 4px;
+		box-shadow: 0px 0px 1px rgba(136, 136, 136, 0.61);
+	}
+
+	.typetitle h3{
+	    margin-top: -0.5em;
+	    margin-left: -0.5em;
+	    margin-bottom: 0.0em;
+	}
+
+	.app_nm h4{
+	    margin-top: 0.5em;
+	    margin-bottom: 0.5em;
+	    margin-left: 0.0em;
+	}
+    
+    .typelist{
+		margin-left: 10px;
+	}
+
+	.chk1{
+		margin-left: -0.7em;
+	}
+
+	.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	    display: inline-block;
+	    overflow: hidden;
+	    width: 100%;
+	    text-align: center;
+	}
+
+	#slidepass{
+		margin-top: 0.5em;
+		/*text-decoration: none*/
+	}
+
+	#checkupChoice{
+		display: none;
+        margin-top: -3px;
+	}
+
+	a:focus, a:hover {
+	    text-decoration: none;
+	}
+
+	.inslide_page > .typelist > span.group1{
+	    margin-left: 10px;
+	    margin-top: -9px;
+	}
+
+	.inslide_page > .typelist > span.group2{
+		margin-left: -5px;
+		margin-top: -9px;
+	}
+
+	.inslide_page > .typelist > span > h5.subtitle{
+	    margin-left: -1.5em;
+	    margin-top: 0.9em;
+	    margin-right: 0.0em;
+	}
+}
+
+/*@media only screen and (min-width: 400px) and (max-width: 480px) {*/
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+	nav {
+		display: none;
+	}
+
+	body{
+	    background-color: #F5F5F5;
+        margin-left: 0.0em;
+	}
+
+	.page_frame{
+        background-color: #F5F5F5;
+	}
+
+	.page_frame h3{
+        padding-top: 0.5em;
+	}
+
+	.page_title{
+        height: 42px;
+	    color: white;
+	    background-color: #1c8e21;
+	    margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-radius: 0px;
+  	  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	    border: 1px solid rgba(0,0,0,.075);
+	}
+
+	.page_title h4{
+	    margin-top: 12px;
+	    margin-left: 0.5em;
+	}
+
+	.glyphicon-exclamation-sign{
+		font-size: 0.8em;
+		color: white;
+	    position: relative;
+	    right: 1em;
+	}
+
+	.popover > .popover-title ,.popover-content{
+		color: black;
+	}
+
+	.slide_page > .slide_header h5{
+	    margin-top: 2em;
+	    margin-bottom: -1.5em;
+	    line-height: 1.3em;
+	    font-weight: 400;
+	    font-size: 1.00em;
+	    word-break: keep-all;
+	}
+
+	.slide_header{
+	    margin-top: -0.5em;
+	}
+
+	.slide_header_hr{
+		margin-top: 15px;
+	}
+
+	.form-group{
+		background-color: white;
+	}
+
+	.form-group .control-label{
+	    margin-top: 0.5em;
+	}
+
+	.form-horizontal hr{
+    }
+
+    .slide_body_hr{
+	    margin-top: -0.5em;
+	    margin-bottom: -0.5em;
+    }
+
+	.house{
+	    margin-top: -10px;
+	    margin-bottom: 15px;
+	}
+
+	.family{
+	    margin-top: -10px;
+	    margin-bottom: -5px;	
+	}
+
+	.apt{
+		/*margin-top: -5px;*/
+	    margin-top: -0.2em;
+	}
+
+	.aptguide{
+        padding-left: 12vw;
+		padding-bottom: 1.0em;
+	}
+
+	.slider_footer hr{
+	    width: 22.3em;
+	    margin-left: 1px;	    
+	}
+
+	.btn-success{
+	    color: white;
+	    background-color: #259b24;
+	}
+
+	.nav-tabs.nav-justified {
+		text-align:center;
+	    border-bottom: 0;
+	    margin-left: 0.0em;
+	}
+
+	.nav-tabs > li, .nav-pills > li {
+	    float:none;
+	    display:inline-block;
+	    /*display:inline; /* ie7 fix */
+	     zoom:1; 
+	     /* hasLayout ie7 trigger */
+	}
+
+	.tab-content {
+	  padding : 0px 20px;
+	  border: 1px solid #ddd;
+	  margin-top: -6px;
+	  margin-bottom: 10px;
+	  border-radius: 3px;
+	}
+
+	/* 가전제품 확인 탭 */
+	.nav-tabs.nav-justified>.active>a, 
+	.nav-tabs.nav-justified>.active>a:focus, 
+	.nav-tabs.nav-justified>.active>a:hover {
+	    border-radius: 2px;
+	    border: 1px solid #ddd;
+	    margin-right: 0;
+	    border-bottom: 0px;	    
+	}
+
+	.appliance_check h4{
+	    font-size: 1.05em;
+	    line-height: 1.3em;
+	    text-align: center;
+	    font-weight: 400;
+	    margin-top: 1em;
+	    word-break: keep-all;
+	    margin-bottom: 1.0em;
+	}
+
+	.appliance_check h5{
+	    font-size: 1.05em;
+	    line-height: 1.3em;
+	    text-align: center;
+	    font-weight: 400;
+	    margin-top: 1.5em;
+	    word-break: keep-all;
+	    margin-bottom: 1.0em;
+	}
+
+	#menu3 > div {
+	    margin-top: 13px;
+	    margin-bottom: 14px;		
+	}
+
+	.appliance_plus{
+	    height: 8.0em;
+		border-radius:3px;
+		border: 1px solid #ddd;
+	    overflow: auto;
+		overflow-x: hidden;	
+	}
+
+	.appliance_labels{
+		margin-top: 7px;
+	}
+
+	.appliance_label{
+		font-size: 0.89em;
+	    display: inline-table;
+	    margin-bottom: 6px;
+        font-weight: 200;
+        padding: 5px 7px 5px 7px;
+        margin-right: 7px;
+	}
+
+	.howmany{
+        margin-top: 0.5rem;
+	}
+
+	.howmany h5{
+		font-weight: 300;
+	}
+
+	/* 3rd slide - inside slide */
+	.slide_page2{
+		margin-left: 4px;
+		box-shadow: 0px 0px 1px rgba(136, 136, 136, 0.61);
+	}
+
+	.typetitle h3{
+	    margin-top: -0.5em;
+	    margin-left: -0.5em;
+	    margin-bottom: 0.0em;
+	}
+
+	.app_nm h4{
+	    margin-top: 0.5em;
+	    margin-bottom: 0.5em;
+	    margin-left: 0.0em;
+	}
+    
+    .typelist{
+		margin-left: 10px;
+	}
+
+	.chk1{
+		margin-left: -0.7em;
+	}
+
+	.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	    display: inline-block;
+	    overflow: hidden;
+	    width: 100%;
+	    text-align: center;
+	}
+
+	#slidepass{
+		margin-top: 0.5em;
+	}
+
+	#checkupChoice{
+		display: none;
+        margin-top: -3px;
+	}
+
+	a:focus, a:hover {
+	    text-decoration: none;
+	}
+
+	.inslide_page > .typelist > span.group1{
+	    margin-left: 10px;
+	    margin-top: -9px;
+	}
+
+	.inslide_page > .typelist > span.group2{
+		margin-left: -5px;
+		margin-top: -9px;
+	}
+
+	.inslide_page > .typelist > span > h5.subtitle{
+	    margin-left: -1.5em;
+	    margin-top: 0.9em;
+	    margin-right: 0.0em;
+	}
+}
