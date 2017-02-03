@@ -1,0 +1,309 @@
+body{
+    background-color: #F5F5F5;
+    margin-left: 0.0em;
+}
+
+.frm{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 5px rgba(0,0,0,0.24);
+}
+
+#won ,#kw{
+    border-bottom: 1px solid #777;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+	outline: none;
+}
+
+#won:focus ,#kw:focus{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #2e6da4;
+}
+/* Tablet Device (col-sm | col-md) 600 | 768 | 800 */
+@media only screen and (min-width:600px) and (max-width:991px) {
+	.page_frame{
+	    background-color: #ffffff;
+	    margin-top: 15rem;
+	    box-shadow: 0 8px 13px rgba(0,0,0,0.12), 0 0px 20px rgba(0,0,0,0.24);
+	    border-radius: 0.5em;
+	    padding-top: 2.0rem;
+	    padding-bottom: 3rem;
+	}
+
+	.page_frame h3{
+        padding-top: 0.5em;
+	}
+
+	.page_title{
+        height: 42px;
+	    color: white;
+	    background-color: #1c8e21;
+	    margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-radius: 0px;
+  	  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	    border: 1px solid rgba(0,0,0,.075);
+	}
+
+	.page_title h4{
+	    margin-top: 1.2rem;
+	    margin-left: 1rem;
+	}
+
+	.glyphicon-exclamation-sign{
+		font-size: 0.8em;
+		color: white;
+	    position: relative;
+	    right: 1em;
+	}
+
+	.popover > .popover-title ,.popover-content{
+		color: black;
+	}
+
+	.slide_page > .slide_header h5{
+	    margin-top: 2rem;
+	    margin-bottom: -2rem;
+	    line-height: 2.0rem;
+	    font-weight: 500;
+	    word-break: keep-all;
+	}
+
+	.slide_header{
+	    margin-top: -0.5em;
+	}
+
+	.slide_header_hr{
+		margin-top: 15px;
+	}
+
+	.form-group{
+		background-color: white;
+	}
+
+	.form-group .control-label{
+	    margin-top: 0.0rem;
+	}
+
+	.form-horizontal hr{
+    }
+
+    .slide_body_hr{
+	    margin-top: -0.5em;
+	    margin-bottom: -0.5em;
+    }
+
+	.house{
+	    margin-top: -10px;
+	    margin-bottom: 15px;
+	}
+
+	.family{
+	    margin-top: -10px;
+	    margin-bottom: -5px;	
+	}
+
+	.aptguide{
+		padding-bottom: 4.5rem;
+	}
+
+	#welfaremodal > .form-group .control-label{
+		word-break: keep-all;
+		margin-top: -0.5em;
+	}
+
+	/* Icon when the collapsible content is shown */
+	.unit:after {
+	    font-family: "Glyphicons Halflings";
+	    content: "\e114";
+	    margin-left: 10px;
+	}
+	/* Icon when the collapsible content is hidden */
+	.unit.collapsed:after {
+		content: "\e113";
+	}	
+}
+
+/* desktops (col-lg) - 992 | 1199*/
+@media only screen and (min-width:992px) and (max-width:1199px) {
+	.page_frame{
+	    background-color: #ffffff;
+	    margin-top: 14rem;
+	    box-shadow: 0 8px 13px rgba(0,0,0,0.12), 0 0px 20px rgba(0,0,0,0.24);
+	    border-radius: 0.5em;
+	    padding-top: 1.5em;
+	    padding-bottom: 1.5em;
+	}
+
+	.page_frame h3{
+        padding-top: 0.5em;
+	}
+
+	.page_title{
+        height: 42px;
+	    color: white;
+	    background-color: #1c8e21;
+	    margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-radius: 0px;
+  	  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	    border: 1px solid rgba(0,0,0,.075);
+	}
+
+	.page_title h4{
+	    margin-top: 1.2rem;
+	    margin-left: 1rem;
+	}
+
+	.slide_page > .slide_header h5{
+	    margin-top: 2rem;
+	    margin-bottom: -2.0rem;
+	    line-height: 2.0rem;
+	    font-weight: 400;
+	}
+
+	.slide_header{
+	    margin-top: -0.5em;
+	}
+
+	.slide_header_hr{
+		margin-top: 15px;
+	}
+
+	.form-group{
+		background-color: white;
+	}
+
+	.form-group .control-label{
+	    margin-top: -0.2rem;
+	}
+
+	.form-horizontal hr{
+    }
+
+    .slide_body_hr{
+	    margin-top: -0.5em;
+	    margin-bottom: -0.5em;
+    }
+
+	.house{
+	    margin-top: -10px;
+	    margin-bottom: 15px;
+	}
+
+	.family{
+	    margin-top: -10px;
+	    margin-bottom: -5px;	
+	}
+
+	.aptguide{
+		padding-bottom: 5rem;
+	}
+
+	#welfaremodal > .form-group .control-label{
+		word-break: keep-all;
+		margin-top: -0.5em;
+	}
+
+	/* Icon when the collapsible content is shown */
+	.unit:after {
+	    font-family: "Glyphicons Halflings";
+	    content: "\e114";
+	    margin-left: 10px;
+	}
+	/* Icon when the collapsible content is hidden */
+	.unit.collapsed:after {
+		content: "\e113";
+	}
+}
+
+/* desktops (col-lg) 1024 =< || */
+@media (min-width : 1200px) {
+	.page_frame{
+	    background-color: #ffffff;
+	    margin-top: 11rem;
+	    box-shadow: 0 8px 13px rgba(0,0,0,0.12), 0 0px 20px rgba(0,0,0,0.24);
+	    border-radius: 0.5em;
+	    padding-top: 1.5em;
+	    padding-bottom: 1.5em;
+	}
+
+	.page_title{
+        height: 42px;
+	    color: white;
+	    background-color: #1c8e21;
+	    margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-radius: 0px;
+  	  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	    border: 1px solid rgba(0,0,0,.075);
+	}
+
+	.page_title h4{
+	    margin-top: 1.2rem;
+	    margin-left: 1rem;
+	}
+
+	.slide_page > .slide_header h5{
+	    margin-top: 2rem;
+	    margin-bottom: -2.0rem;
+	    line-height: 2.0rem;
+	    font-weight: 400;
+	}
+
+	.slide_header{
+	    margin-top: -0.5em;
+	}
+
+	.slide_header_hr{
+		margin-top: 15px;
+	}
+
+	.form-group{
+		background-color: white;
+	}
+
+	.form-group .control-label{
+        margin-top: -0.2rem;
+	}
+
+	.form-horizontal hr{
+    }
+
+    .slide_body_hr{
+	    margin-top: -0.5em;
+	    margin-bottom: -0.5em;
+    }
+
+	.house{
+	    margin-top: -10px;
+	    margin-bottom: 15px;
+	}
+
+	.family{
+	    margin-top: -10px;
+	    margin-bottom: -5px;	
+	}
+
+	.aptguide{
+		padding-bottom: 1.5rem;
+	}
+
+	#welfaremodal > .form-group .control-label{
+		word-break: keep-all;
+		margin-top: -0.5em;
+	}
+
+	/* Icon when the collapsible content is shown */
+	.unit:after {
+	    font-family: "Glyphicons Halflings";
+	    content: "\e114";
+	    margin-left: 10px;
+	}
+	/* Icon when the collapsible content is hidden */
+	.unit.collapsed:after {
+		content: "\e113";
+	}
+}
