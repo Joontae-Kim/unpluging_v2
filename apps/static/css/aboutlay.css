@@ -1,0 +1,400 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body{
+	background-color: #F5F5F5;
+	font-family: 'Nanum Gothic', serif;
+}
+
+nav {
+    font-size: 1.3em;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+}
+
+.logo {
+    margin-top: -0.5rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding-top: 2.0rem;
+}
+
+.tab-content .guide {
+    color: black;
+    font-weight: 600;
+}
+
+.tab-content p{
+	color: #757575;
+	line-height: 2.0em;
+	font-weight: 200;
+	font-size: smaller;
+}
+
+.tab-content ul{
+    color: #757575;
+    line-height: 2.0em;
+    font-weight: 200;
+    margin-left: -1em;
+}
+
+.tab-content h5.date{
+	text-align: right;
+	text-align: -webkit-right;
+}
+
+.directform{
+    padding-bottom: 1.5rem;
+}
+
+#contact{
+    padding-top: 2rem;
+}
+
+footer{
+	background-color: white;
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+	nav {
+		font-size: 1.2em;
+	}
+
+	.window{
+	    margin-bottom: 50px;
+	}
+
+	.servicelogo{
+	    margin-top: 4rem;
+	    margin-bottom: 1rem;
+	}
+
+	.memform{
+		background-color: white;
+	    margin-top: 0.5rem;
+	    border-radius: 5px;
+	    margin-bottom: 6rem;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+	    margin-top: 3rem;
+	    margin-bottom: 1rem;
+	}
+
+	.intro h3 {
+	    line-height: 2.5rem;
+	    font-size: 1.55rem;
+	    text-align: -webkit-center;
+	    text-align: center;
+	    word-break: keep-all;
+	    font-weight: 400;
+	    color: #3a3a3a;
+	}
+
+	.intro p {
+	    text-align: -webkit-center;
+	    text-align: center;
+	    font-size: 1.0em;
+        color: rgba(51, 51, 51, 0.6);
+	    font-weight: 400;
+	    word-break: keep-all;
+	    line-height: 1.8em;
+	}
+
+	/** contents **/
+	.faqbtn{
+	    margin-bottom: 1.0rem;
+	    margin-top: -0.5rem;
+	}
+
+	.faqbtn > .btn{
+		font-size: 1.1em;
+	}
+
+	.tab-content{
+		padding-bottom: 2rem;
+	}
+
+	.tab-content .guide{
+	    font-size: 1.0em;
+	    margin-bottom: 1.5rem;
+	}
+
+	.tab-content p{
+	    color: #757575;
+	    line-height: 2.0em;
+	    font-weight: 200;
+	    font-size: 0.9em;
+	}
+
+	.tab-content ul{
+	    font-weight: 200;
+	    font-size: smaller;
+	}
+
+	.tab-content .process{
+	    font-size: 1.5rem;
+	}
+
+	.tab-content h5.date{
+		font-size: 1rem;
+	}
+}
+
+
+/* desktops (col-md) 1024 =< || */
+@media (min-width : 992px) and (max-width: 1199px) {
+	nav {
+		font-size: 1.2em;
+	}
+
+	.navbar-brand{
+		font-size: 1.3em;
+	}
+
+	.window{
+	    height: 38em;
+	    margin-bottom: 4rem;
+	}
+
+	.memform{
+	    background-color: white;
+	    margin-top: 1.0rem;
+	    margin-bottom: 4.0rem;
+	    border-radius: 5px;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+	    margin-top: 4rem;
+	    margin-bottom: 1rem;
+	}
+
+	.intro h3 {
+	    line-height: 2.5rem;
+	    font-size: 1.55rem;
+	    text-align: -webkit-center;
+	    text-align: center;
+	    word-break: keep-all;
+	    font-weight: 400;
+	    color: #3a3a3a;
+	}
+
+	.intro p {
+	    text-align: -webkit-center;
+	    text-align: center;
+	    font-size: 0.85em;
+	    color: rgba(51, 51, 51, 0.66);
+	    font-weight: 400;
+	    word-break: keep-all;
+	    line-height: 1.9em;
+	}
+
+	/** contents **/
+	.faqbtn{
+		margin-bottom: 2rem;
+	}
+
+	.tab-content{
+		padding-bottom: 2rem;
+	}
+
+	.tab-content .guide{
+	    font-size: 1.3rem;
+	    margin-bottom: 1.5rem;
+	}
+
+	.tab-content p{
+		color: #757575;
+		line-height: 2.0em;
+		font-weight: 200;
+		font-size: smaller;
+	}
+
+	.tab-content .process{
+        font-size: 1.3rem;
+	}
+
+	.tab-content .date{
+	    font-size: 1.1rem;
+	}
+}
+	
+
+/* Desktops and laptops (col-lg) */
+@media (min-width: 1200px) and (max-width: 1299px) {
+	.window{
+	    height: 41em;
+	    margin-top: -2em;
+	    margin-bottom: 50px;
+	}
+
+	.memform{
+	    background-color: white;
+	    margin-top: 7.0rem;
+	    margin-bottom: 5rem;
+	    border-radius: 5px;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+        margin-top: 11.5rem;
+	}
+
+	.intro{
+	    margin-top: 1rem;
+	}
+
+	.intro h3 {
+	    line-height: 2.5rem;
+	    font-size: 1.5rem;
+	    text-align: -webkit-center;
+	    text-align: center;
+	    word-break: keep-all;
+	    font-weight: 400;
+	    color: #3a3a3a;
+	}
+
+	.intro p {
+		line-height: 2.5rem;
+		text-align: -webkit-center;
+		text-align: center;
+		font-size: 1.2rem;
+		color: rgba(0,0,0,0.52);
+		font-weight: 400;
+		word-break: keep-all;
+	}
+	/** contents **/
+	.faqbtn{
+		margin-bottom: 2rem;
+	}
+
+	.tab-content{
+		padding-bottom: 2rem;
+	}
+
+	.tab-content .guide{
+	    font-size: 1.4rem;
+	    margin-bottom: 2rem;
+	}
+
+	.tab-content p{
+	    color: #757373;
+	    line-height: 2.0em;
+	    font-weight: 200;
+	}
+
+	.tab-content ul{
+	    color: #757373;
+	    line-height: 2.0em;
+	    font-weight: 200;
+	}
+
+	.tab-content .process{
+	    font-size: 1.5rem;
+	}
+
+	.tab-content .date{
+	    font-size: 1.3rem;
+	}
+}
+
+/* Desktops and laptops (col-lg) */
+/*@media only screen and (min-width:1201px) and (max-width:991px) {*/
+@media (min-width: 1300px) {
+	.window{
+	    height: 38em;
+	    margin-top: -1rem;
+	    margin-bottom: 5rem;
+	}
+
+	.memform{
+		background-color: white;
+	    margin-top: 5.5rem;
+	    border-radius: 5px;
+	    margin-bottom: 5rem;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+        margin-top: 13rem;
+	}
+
+	.intro{
+		margin-top: 3rem;
+	}
+
+	.intro h3 {
+	    line-height: 1.5em;
+	    font-size: 1.8rem;
+	    text-align: -webkit-center;
+	    text-align: center;
+	    word-break: keep-all;
+	    font-weight: 500;
+	    color: #3a3a3a;
+	}
+
+	.intro p {
+	    line-height: 2.5rem;
+	    text-align: -webkit-center;
+	    text-align: center;
+	    font-size: 1.05em;
+	    color: rgba(0,0,0,0.5);
+	    font-weight: 600;
+	}
+	/** contents **/
+	.faqbtn{
+		margin-bottom: 2rem;
+	}
+
+	.faqbtn > .btn{
+		font-size: 1.2em;
+	}
+	
+	.tab-content{
+		padding-bottom: 2rem;
+	}
+
+	.tab-content h4{
+	    font-size: 1.4em;
+	}
+
+	.tab-content .guide{
+	    font-size: 1.1em;
+	    margin-bottom: 2rem;
+	}
+
+	.tab-content p{
+		color: #757373;
+		line-height: 1.8em;
+		font-weight: 200;
+		font-size: 1.05em;
+	}
+
+	.tab-content ul{
+	    color: #757373;
+	    line-height: 2.0em;
+	    font-weight: 200;
+	}
+
+	.tab-content .process{
+        font-size: 1.6rem;
+	}
+
+	.tab-content .data{
+	    font-size: 1.3rem;
+	}	
+	/**	 page-bottom style  **/ 
+	footer{
+		background-color: white;
+	}
+}
