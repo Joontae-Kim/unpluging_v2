@@ -1,0 +1,530 @@
+.navbar{
+	display: none;
+}
+/* Tablet Device (col-sm | col-md) 768 | 800 */
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.window{
+	    height: 41em;
+	    margin-bottom: 50px;
+	    background-color:#EEEEEE;
+	}
+
+	.servicelogo{
+	    margin-top: 2.0em;
+	    margin-bottom: 2.0em;
+	    padding-left: 0em;
+	}
+
+	.memform{
+	    background-color: white;
+	    height: 36em;
+	    margin-top: 2.5em;
+	    border-radius: 5px;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+	    margin-top: 2.0em;
+	    margin-bottom: 2.0em;
+	    padding-left: 1em;
+	}
+
+	.memform hr{
+	    margin-top: 1.0em;
+	    margin-bottom: 1.5em;
+	}
+
+	/**	 login-tabs style  **/ 
+	.nav-tabs.nav-justified{
+	  border-bottom: 1px solid #ddd;
+	  position: relative;
+	  text-align:center;
+	}
+
+	.nav-tabs.nav-justified li {
+		margin-bottom: none;
+		position: initial;
+		border-bottom: 0px;
+		display:inline-block;
+		*display:inline; /* ie7 fix */
+		zoom:1; /* hasLayout ie7 trigger */
+		width: 45%;
+	}
+
+	.nav-tabs.nav-justified li a {
+		position: initial;
+		border-bottom: 0px;
+		background: transparent;
+		border: none;
+		color: gray;
+	}
+
+	.nav-tabs.nav-justified> li.active > a,
+	.nav-tabs.nav-justified> li.active > a:active,
+	.nav-tabs.nav-justified> li.active > a:focus,
+	.nav-tabs.nav-justified> li.active > a:hover{
+		border-width: 0;
+		border: 0px;
+		color: black;
+		font-weight: 500;
+		border-bottom: 1px solid black;
+		font-size: 1.3em;
+	}
+
+	.nav-tabs > li > a:hover {
+		background: transparent;
+	}	
+
+	/**	 login-input-tag style  **/ 
+	#home{
+		margin-top: 1em;
+	}
+
+	.modified{
+		margin-top: 6em;
+	}
+
+	.resetGuide{
+		font-weight: 400;
+	    margin-bottom: 1.5em;
+        word-break: keep-all;
+	}
+
+	/** Registraion tab style **/
+	#menu1 input{
+	    margin-top: 1.3em;
+	}
+
+	#menu1 input:nth-child(1){
+        margin-top: 2.5em;
+	}
+
+	.chkerprint{
+	    border-radius: 2px;
+	    margin-top: 2.3em;
+	}
+
+	/**	 page-bottom style  **/ 
+	.social{
+		margin-bottom: 5em;
+	}
+
+	.social_comment{
+		font-size:1.2em;
+		margin-top: -1.4em;
+	}
+
+	.blockquote-reverse{
+		font-size: 0.9em;
+		word-break: keep-all;
+	}
+
+	.FBlogo{
+	    width: 5em;		
+	    margin-left: -1em;
+	    margin-top: -1em;		
+	}
+
+	.naverlogo1{
+		display: none;
+	}
+
+	.naverlogo2{
+	    width: 15em;
+	    margin-left: -0.3em;
+	    margin-top: -0.8em;		
+	}
+}
+
+
+/* desktops (col-md) 1024 =< || */
+@media (min-width : 992px) and (max-width: 1199px) {
+	.navbar-brand{
+		font-size: 1.3em;
+	}
+
+	.window{
+	    height: 41em;
+	    margin-bottom: 50px;
+	    background-color:#EEEEEE;
+	}
+
+	.memform{
+	    background-color: white;
+	    height: 36em;
+	    margin-top: 2.5em;
+	    border-radius: 5px;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+	    margin-top: 2.0em;
+	    margin-bottom: 2.0em;
+	    padding-left: 3em;
+	}
+
+	.memform hr{
+		margin-top: 1.3em;
+		margin-bottom: 1.3em;
+	}
+
+	/**	 login-tabs style  **/ 
+	.nav-tabs.nav-justified{
+	  border-bottom: 1px solid #ddd;
+	  position: relative;
+	  text-align:center;
+	}
+
+	.nav-tabs.nav-justified li {
+		margin-bottom: none;
+		position: initial;
+		border-bottom: 0px;
+		display:inline-block;
+		*display:inline; /* ie7 fix */
+		zoom:1; /* hasLayout ie7 trigger */
+		width: 45%;
+	}
+
+	.nav-tabs.nav-justified li a {
+		position: initial;
+		border-bottom: 0px;
+		background: transparent;
+		border: none;
+		color: gray;
+	}
+
+	.nav-tabs.nav-justified> li.active > a,
+	.nav-tabs.nav-justified> li.active > a:active,
+	.nav-tabs.nav-justified> li.active > a:focus,
+	.nav-tabs.nav-justified> li.active > a:hover{
+		border-width: 0;
+		border: 0px;
+		color: black;
+		font-weight: 500;
+		border-bottom: 1px solid black;
+		font-size: 1.3em;
+	}
+
+	.nav-tabs > li > a:hover {
+		background: transparent;
+	}	
+
+	/**	 login-input-tag style  **/ 
+	#home{
+		margin-top: 1em;
+	}
+
+	.modified{
+		margin-top: 4.0em;
+	}
+
+	.resetGuide{
+		word-break: keep-all;
+		font-weight: 400;
+	    margin-bottom: 1.5em;
+        word-break: keep-all;
+	}
+
+	/** Registraion tab style **/
+	#menu1 input{
+	    margin-top: 1.3em;
+	}
+
+	#menu1 input:nth-child(1){
+        margin-top: 2.5em;
+	}
+
+	.chkerprint{
+	    border-radius: 2px;
+	    margin-top: 2.3em;
+	}
+
+	/**	 page-bottom style  **/ 
+	.social{
+		margin-bottom: 7em;
+	}
+
+	.social_comment{
+		font-size:1.6em;
+		margin-top:-0.5em;
+	}
+
+	.blockquote-reverse{
+		font-size: 0.9em;
+		word-break: keep-all;
+	}
+
+	.FBlogo{
+	    width: 6em;
+	}
+
+	.naverlogo2{
+		display: none;
+	}
+
+	.naverlogo1{
+		width: 18em;
+	}
+}
+	
+
+/* Desktops and laptops (col-lg) */
+@media (min-width: 1200px) and (max-width: 1299px){
+	.window{
+	    height: 41em;
+	    margin-bottom: 50px;
+	    background-color:#EEEEEE;
+	}
+
+	.memform{
+	    background-color: white;
+	    height: 32em;
+	    margin-top: 2.5em;
+	    border-radius: 5px;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+	    margin-top: 2.0em;
+	    margin-bottom: 1.0em;
+	    padding-left: 0em;
+	}
+
+	.memform hr{
+	    margin-top: 1.5em;
+	    margin-bottom: 1.5em;
+	}
+
+	/**	 login-tabs style  **/ 
+	.nav-tabs.nav-justified{
+	  border-bottom: 1px solid #ddd;
+	  position: relative;
+	  text-align:center;
+	}
+
+	.nav-tabs.nav-justified li {
+		margin-bottom: none;
+		position: initial;
+		border-bottom: 0px;
+		display:inline-block;
+		*display:inline; /* ie7 fix */
+		zoom:1; /* hasLayout ie7 trigger */
+		width: 45%;
+	}
+
+	.nav-tabs.nav-justified li a {
+		position: initial;
+		border-bottom: 0px;
+		background: transparent;
+		border: none;
+		color: gray;
+	}
+
+	.nav-tabs.nav-justified> li.active > a,
+	.nav-tabs.nav-justified> li.active > a:active,
+	.nav-tabs.nav-justified> li.active > a:focus,
+	.nav-tabs.nav-justified> li.active > a:hover{
+		border-width: 0;
+		border: 0px;
+		color: black;
+		font-weight: 500;
+		border-bottom: 1px solid black;
+		font-size: 1.3em;
+	}
+
+	.nav-tabs > li > a:hover {
+		background: transparent;
+	}	
+
+	/**	 login-input-tag style  **/ 
+	#home{
+		margin-top: 1em;
+	}
+
+	.chkerprint{
+	    border-radius: 2px;
+	    margin-top: 1.5em;
+	}
+
+	.modified{
+		margin-top: 4.0em;
+	}
+
+	.resetGuide{
+		word-break: keep-all;
+		font-weight: 400;
+	    margin-bottom: 1.5em;
+        word-break: keep-all;
+	}
+
+	/** Registraion tab style **/
+	#menu1 input{
+	    margin-top: 1.0em;
+	}
+
+	#menu1 input:nth-child(1){
+	    margin-top: 2.0em;
+	}
+
+	/**	 page-bottom style  **/ 
+	.social{
+		margin-bottom: 7em;
+	}
+
+	.social_comment{
+		font-size:1.6em;
+		margin-top:-0.5em;
+	}
+
+	.blockquote-reverse{
+		font-size: 0.9em;
+		word-break: keep-all;
+	}
+
+	.FBlogo{
+	    width: 6em;
+	}
+
+	.naverlogo2{
+		display: none;
+	}
+
+	.naverlogo1{
+		width: 18em;
+	}
+}
+
+/* Desktops and laptops (col-lg) */
+/*@media only screen and (min-width:1201px) and (max-width:991px) {*/
+@media (min-width: 1300px) {
+	.window{
+	    height: 42em;
+	    margin-bottom: 50px;
+	    /*background-color:#EEEEEE;*/
+	    background-color: rgba(238, 238, 238, 0.46);
+	}
+
+	.memform{
+	    background-color: white;
+	    height: 31.5em;
+	    margin-top: 5.5em;
+	    border-radius: 5px;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+	    margin-top: 2.0em;
+	    margin-bottom: 1.0em;
+	    padding-left: 1em;
+	}
+
+	.memform hr{
+	    margin-top: 1.3em;
+	    margin-bottom: 1.3em;
+	}
+
+	/**	 login-tabs style  **/ 
+	.nav-tabs.nav-justified{
+	  border-bottom: 1px solid #ddd;
+	  position: relative;
+	  text-align:center;
+	}
+
+	.nav-tabs.nav-justified li {
+		margin-bottom: none;
+		position: initial;
+		border-bottom: 0px;
+		display:inline-block;
+		*display:inline; /* ie7 fix */
+		zoom:1; /* hasLayout ie7 trigger */
+		width: 45%;
+	}
+
+	.nav-tabs.nav-justified li a {
+		position: initial;
+		border-bottom: 0px;
+		background: transparent;
+		border: none;
+		color: gray;
+	}
+
+	.nav-tabs.nav-justified> li.active > a,
+	.nav-tabs.nav-justified> li.active > a:active,
+	.nav-tabs.nav-justified> li.active > a:focus,
+	.nav-tabs.nav-justified> li.active > a:hover{
+	    border-width: 0;
+	    border: 0px;
+	    color: black;
+	    font-weight: 500;
+	    border-bottom: 1px solid black;
+	    font-size: 1.3em;
+	}
+
+	.nav-tabs > li > a:hover {
+		background: transparent;
+	}	
+
+	/**	 login-input-tag style  **/ 
+	.modified{
+		margin-top: 4.0em;
+	}
+
+	.resetGuide{
+		word-break: keep-all;
+		font-weight: 400;
+	    margin-bottom: 1.5em;
+        word-break: keep-all;
+	}
+
+	/** Registraion tab style **/
+	#menu1 input{
+        margin-top: 1.2em;
+	}
+
+	#menu1 input:nth-child(1){
+	    margin-top: 2.0em;
+	}
+
+	.chkerprint{
+	    margin-top: 1.0em;
+	}
+
+	#registerConfirm{
+		margin-bottom: 1em;
+	}
+
+	/**	 page-bottom style  **/ 
+	.social{
+		margin-bottom: 7em;
+	}
+
+	.social_comment{
+		font-size:1.6em;
+		margin-top:-0.5em;
+	}
+
+	.blockquote-reverse{
+		font-size: 0.9em;
+		word-break: keep-all;
+	}
+
+	.FBlogo{
+	    width: 6em;
+	}
+
+	.naverlogo2{
+		display: none;
+	}
+
+	.naverlogo1{
+		width: 18em;
+	}
+}
