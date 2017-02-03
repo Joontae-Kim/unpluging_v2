@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'NotoSansKR-Medium', sans-serif;
+    src: url('../fonts/NotoSansKR-Medium.otf');
+}
+
+.jumbotron h1{
+    font-family: 'NotoSansKR-Medium', sans-serif;
+}
+
+@font-face {
+    font-family: 'JejuGothic', sans-serif;
+    src: url('../fonts/JejuGothic-Regular.ttf');
+}
+
+/*@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);*/
+.intro h3, .caltype h3, .thumbnail_1_title, .thumbnail_2_title, .thumbnail_3_title {
+    font-family: 'JejuGothic', sans-serif;
+}
