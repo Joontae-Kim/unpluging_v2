@@ -1,0 +1,319 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body{
+	background-color: #F5F5F5;
+	font-family: 'Nanum Gothic', serif;
+}
+
+nav {
+	font-size: 1.2em;
+}
+
+.logo{
+    margin-top: -0.8rem;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+}
+
+.intro p{
+    line-height: 1.75em;
+}
+
+.directform{
+    padding-bottom: 1.5rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding-top: 2.0rem;
+}
+
+.tab-content h5.date{
+	text-align: right;
+	text-align: -webkit-right;
+}
+
+footer{
+    background-color: white;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+}
+
+#contact {
+    padding-top: 2rem;
+}
+
+/*Mobile Device (col-xs) 320 */
+@media only screen and (min-width: 320px) and (max-width: 359px) { 
+	.window{
+	    height: 41em;
+	    margin-bottom: 50px;
+	}
+
+	.memform{
+	    background-color: white;
+		margin-top: 3.5rem;
+		margin-bottom: 5rem;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+	    margin-top: 4rem;
+	    margin-bottom: 1rem;
+	}
+
+	.intro h3 {
+	    line-height: 2.7rem;
+	    font-size: 1.7rem;
+	    text-align: -webkit-center;
+	    text-align: center;
+	    word-break: keep-all;
+	    font-weight: 500;
+	    color: #3a3a3a;
+	}
+
+	.intro p {
+		text-align: -webkit-center;
+		text-align: center;
+		font-size: 1.40rem;
+		color: rgba(51, 51, 51, 0.66);
+		font-weight: 400;
+		word-break: keep-all;
+		line-height: 2.5rem;
+	}
+
+	.faqbtn{
+		margin-bottom: 2rem;
+	}
+
+	.faqbtn > a.btn{
+		font-size: 0.7em;
+	}
+
+	/** contents **/
+	.tab-content{
+		padding-bottom: 3rem;
+	}
+
+	.tab-content h4{
+		font-size: 1.15em;
+		font-weight: 600;
+		word-break: keep-all;
+	}
+
+	.tab-content .guide{
+	    color: black;
+	    font-size: 1.4rem;
+	    margin-bottom: 1.5rem;
+	    font-weight: 400;
+	}
+
+	.tab-content p{
+		color: #3c3c3c;
+		line-height: 2.0em;
+		font-weight: 200;
+		font-size: 1.35rem;
+	}
+
+	.tab-content ul{
+	    color: #3c3c3c;
+	    line-height: 2.0em;
+	    font-weight: 200;
+	    font-size: 1.3rem;
+	    margin-left: -1.0em;
+	}
+
+	.tab-content .process{
+	    font-size: 1.5rem;
+	}
+
+	.tab-content h5.date{
+		font-size: 1.0rem;
+	}
+}
+
+/* Mobile Device (col-xs) 360 | 375 | 414 */
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+	.window{
+	    height: 41em;
+	    margin-bottom: 50px;
+	}
+
+	.memform{
+	    background-color: white;
+		margin-top: 3.5rem;
+		margin-bottom: 5rem;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+	    margin-top: 4rem;
+	    margin-bottom: 1rem;
+	}
+
+	.intro h3 {
+	    line-height: 3.0rem;
+	    font-size: 1.8rem;
+	    text-align: -webkit-center;
+	    text-align: center;
+	    word-break: keep-all;
+	    font-weight: 700;
+	    color: #3c3c3c;
+	}
+
+	.intro p {
+	    text-align: -webkit-center;
+	    text-align: center;
+	    font-size: 1.55rem;
+	    color: rgba(51, 51, 51, 0.66);
+	    font-weight: 400;
+	    word-break: keep-all;
+	    line-height: 3.0rem;
+	}
+
+	/** contents **/
+	.faqbtn{
+		margin-bottom: 2rem;
+	}
+
+	.faqbtn > .btn{
+		font-size: 0.80em;
+	}
+
+	.tab-content{
+		padding-bottom: 2rem;
+	}
+
+	.tab-content h4{
+		font-size: 1.15em;
+		font-weight: 600;
+		word-break: keep-all;
+	}
+
+	.tab-content .guide{
+	    color: black;
+	    font-size: 1.5rem;
+	    margin-bottom: 1.5rem;
+	}
+
+	.tab-content p{
+		color: rgba(60, 60, 60, 0.8);;
+		line-height: 2.0em;
+		font-weight: 200;
+		font-size: 1.35rem;
+	}
+
+	.tab-content ul{
+	    color: rgba(60, 60, 60, 0.8);
+	    line-height: 2.0em;
+	    font-weight: 200;
+	    font-size: 1.4rem;
+	    margin-left: -1em;
+	}
+
+	.tab-content .process{
+	    font-size: 1.5rem;
+	}
+
+	.tab-content h5.date{
+		font-size: 1.3rem;
+	}
+}
+
+@media only screen and (min-width:500px) and (max-width:767px) {
+	.window{
+	    height: 41em;
+	    margin-bottom: 50px;
+	}
+
+	.memform{
+	    background-color: white;
+		margin-top: 3.5rem;
+		border-radius: 5px;
+		margin-bottom: 5rem;
+	    padding-bottom: 3rem;
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 2px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+	    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 1px,rgba(0,0,0,0.09804) 0px 1px 1px 0px;
+	}
+
+	.servicelogo{
+	    margin-top: 3rem;
+	    margin-bottom: 1rem;
+	}
+
+	.intro h3 {
+	    line-height: 4.0rem;
+	    font-size: 2.4rem;
+	    text-align: -webkit-center;
+	    text-align: center;
+	    word-break: keep-all;
+	    font-weight: 400;
+	    color: #3a3a3a;
+	}
+
+	.intro p {
+	    text-align: -webkit-center;
+	    text-align: center;
+	    font-size: 1.7rem;
+	    color: rgba(51, 51, 51, 0.66);
+	    font-weight: 400;
+	    word-break: keep-all;
+	    line-height: 3.0rem;
+	}
+
+	/** contents **/
+	.faqbtn{
+	    margin-bottom: 1.0rem;
+	    margin-top: -0.5rem;
+	}
+
+	.faqbtn > .btn{
+		font-size: 1.1em;
+	}
+
+	.tab-content{
+		padding-bottom: 2rem;
+	}
+
+	.tab-content h4{
+	    font-size: 1.3em;
+	    font-weight: 600;
+	    word-break: keep-all;
+	}
+
+	.tab-content .guide{
+	    color: black;
+	    font-size: 1.1em;
+	    margin-bottom: 1.5rem;
+	    font-weight: 400;
+	}
+
+	.tab-content p{
+		color: #757575;
+		line-height: 2.0em;
+		font-weight: 200;
+	    font-size: 1.0em;
+	}
+
+	.tab-content ul{
+	    color: #757575;
+	    line-height: 2.0em;
+	    font-weight: 200;
+        font-size: 0.9em;
+     	margin-left: -1em;
+	}
+
+	.tab-content .process{
+	    font-size: 1.5rem;
+	}
+
+	.tab-content h5.date{
+		font-size: 1.3rem;
+	}
+}
